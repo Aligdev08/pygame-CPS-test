@@ -14,6 +14,7 @@ font = pygame.font.SysFont("Arial", 40)
 
 objects = []
 
+
 class Button:
     def __init__(self, x: int, y: int, button_width: int, button_height: int, buttonText: str = "Button",
                  onclickFunction=None, onePress=False):
@@ -120,8 +121,6 @@ while True:
 
     if clicker.check_if_on():
         clicker.update_cps()
-
-
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
