@@ -1,6 +1,6 @@
 from datetime import datetime
 import pygame
-import sys
+import sys766571696491986965
 
 pygame.init()
 fps = 60
